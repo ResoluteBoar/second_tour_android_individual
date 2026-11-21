@@ -18,6 +18,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import ru.nto.guestmanagement.mobile.data.DemoPassRepository
 import ru.nto.guestmanagement.mobile.data.SystemTimeProvider
+import ru.nto.guestmanagement.mobile.task.a1.PassHolderCard
 import ru.nto.guestmanagement.mobile.ui.PassScreen
 import ru.nto.guestmanagement.mobile.ui.PassViewModel
 import ru.nto.guestmanagement.mobile.ui.theme.GuestManagementTheme

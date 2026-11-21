@@ -16,7 +16,7 @@ plugins {
 
 android {
     namespace = "ru.nto.guestmanagement.mobile"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "ru.nto.guestmanagement.mobile"
@@ -56,8 +56,8 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.foundation:foundation")
     implementation("androidx.compose.material3:material3")
-    implementation("androidx.activity:activity-compose:1.12.4")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0")
+    implementation("androidx.activity:activity-compose:1.12.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.11.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
     implementation("com.google.zxing:core:3.5.4")
 
@@ -68,4 +68,5 @@ dependencies {
     testImplementation("androidx.compose.ui:ui-test-junit4")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.11.0")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.12.1")
 }
